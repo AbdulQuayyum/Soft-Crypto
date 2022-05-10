@@ -9,6 +9,8 @@ FundOutlined,
 MenuOutlined
 } from "@ant-design/icons"
 
+import icon from "../images/logo.png"
+
 const Navbar = () => {
 return (
 <div className="nav-container">
@@ -17,6 +19,7 @@ return (
 <Typography.Title level={2} className="logo">
 <link to="/">Soft-Crypto</link>
 </Typography.Title>
+<Button className="menu-control-container"></Button>
 </div>
 </div>
 )

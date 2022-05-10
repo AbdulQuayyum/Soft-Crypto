@@ -1,10 +1,16 @@
 import React from "react"
-import ReactDOM from "react-dom/client"
+import ReactDOM from "react-dom"
+import {BrowserRouter as Router} from "react-router-dom"
+
 import App from "./App"
 
-const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(
+import "antd/dist/antd.css"
+
+ReactDOM.render(
 <React.StrictMode>
+<Router>
 <App />
-</React.StrictMode>
+</Router>
+</React.StrictMode>,
+document.getElementById("root")
 )
