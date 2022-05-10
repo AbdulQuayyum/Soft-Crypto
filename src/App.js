@@ -3,12 +3,12 @@ import {Switch, Route, Link} from 'react-router-dom'
 import {Layout, Typography, Space} from 'antd'
 
 import {
-Navbar,
-Homepage,
 Exchanges,
+Homepage,
+News,
 Cryptocurrencies,
 CryptoDetails,
-News
+Navbar
 } from './components'
 import './App.css'
 
@@ -42,7 +42,7 @@ const App = () => (
 <div className='footer'>
 <Typography.Title level={5} style={{color: 'white', textAlign: 'center'}}>
 Copyright © 2021
-<Link to='/'>Soft-Crypto Inc.</Link> <br />
+<Link to='/'>Cryptoverse Inc.</Link> <br />
 All Rights Reserved.
 </Typography.Title>
 <Space>
