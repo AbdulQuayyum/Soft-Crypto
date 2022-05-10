@@ -1,9 +1,14 @@
 import "./App.css"
+import React from "react"
+import {Routes, Route, Link} from "react-router-dom"
+import {Layout, Typography, Space} from "antd"
 
-function App() {
+const App = () => {
 return (
-<div className="App">
-<header className="App-header"></header>
+<div className="app">
+<div className="navbar"></div>
+<div className="main"></div>
+<div className="footer"></div>
 </div>
 )
 }
